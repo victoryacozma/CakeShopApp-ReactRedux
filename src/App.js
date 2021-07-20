@@ -7,17 +7,19 @@ import HookCakeContainer from './components/HookCakeContainer';
 import HookIceCreamContainer from './components/HookIceCreamContainer';
 import NewCakeContainer from './components/NewCakeContainer';
 import ItemContainer from './components/ItemContainer';
+import UserContainer from './components/UserContainer';
 
 //provider component jnows about redux store through props
 function App() {
   return (
     <Provider store = {store}>
     <div className="App">
-      <ItemContainer cake />
+      {/* {<ItemContainer cake />
       <ItemContainer/>
       <HookCakeContainer/>
       <HookIceCreamContainer/>
-      <NewCakeContainer/>
+      <NewCakeContainer/>} */}
+      <UserContainer/>
     </div>
     </Provider>
   );
